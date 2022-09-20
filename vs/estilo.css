@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    font-family: Verdana;
+}
+
+header {
+    background-color: #eccdaa;
+    padding: 2rem;
+}
+
+header h1 {
+    color: #cc822e;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #f1f1f1;
+    padding: 0.5rem;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding-left: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.tabela {
+    border: 2px solid #ca8230;
+    margin-top: 90px;
+    margin: auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border-radius: 15px;
+    
+    
+}
+
+.divisao {
+    padding: 12px;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: #ca8230;
+    color: #eccdaa;
+    padding: 15px;
+    bottom: 0;
+    width: 100%;
+}
+
+h3 {
+    background-color: #ca8230;
+    padding: 12px;
+    border-radius:  7px;
+    color: rgb(109, 73, 7) ;
+}
+
+
+button {
+    padding: 10px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: #ca8230;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+    color: #7a4406;
+    cursor: pointer;
+    border: none;
+    
+
+}
+
+input {
+
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    border: solid  #ca8230;;
+
+
+}
+
+article {
+    margin-bottom: 15px;
+}
+
+textarea {
+    border-radius: 15px;
+    border: solid 2px #ca8230;;
+    cursor: cell;
+}
